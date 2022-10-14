@@ -27,4 +27,4 @@ A simple python script to generate European-styled car license plates.
 |`emblem_path`|Emblem path.|`str`|
 |`emblem_margin`|Emblem left and top offset.|`int`|
 |`text_font`|Plate text font.|`PIL.ImageFont.FreeTypeFont`|
->***Note:** the`text` variable is assigned to the system argue by default, if you change this setting your plate text will be constant.*
+>***Note:** the `text` variable is assigned to the system argue by default, if you change this setting your plate text will be constant.*
