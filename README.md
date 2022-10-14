@@ -12,8 +12,6 @@ A simple python script to generate European-styled car license plates.
 
 ## Configuration
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
 |Setting|Description|Type/Range|
 |-|-|-|
 |`corner_radius`|Corner angle radius.|`int`|
