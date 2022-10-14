@@ -24,9 +24,9 @@ emblem = True
 emblem_path = r"emblem/eu.png"
 emblem_margin = 50
 
-text = " ".join(sys.argv[1:])
 text_font = ImageFont.truetype(r'fonts/din1451alt.ttf', 625)
 #text_font = ImageFont.truetype(r'fonts/fe-font.ttf', 525)
+text = " ".join(sys.argv[1:])
 
 #> Build Plate
 plate = Image.new(

@@ -20,8 +20,13 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 |`rounded`|Rounded corners.|`bool`|
 |`border`|Black plate outline.|`bool`|
 |`plate_size`|Plate dimensions.|(`int`, `int`)|
-|`plate_color`|Plate background color.|(`int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup> `int` <sup>0 &rarr; 255</sup>)|
+|`plate_color`|Plate background color.|(`int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup>)|
 |`lstrip_witdh`|Euroband width.|`int` <sup>0 &rarr; plateWidth</sup>|
-|`lstrip_color`|Euroband color.|(`int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup> `int` <sup>0 &rarr; 255</sup>)|
-|`letter_cc`|Country abbreviation .|`str` <sup>len 0 &rarr; 3</sup>|
-
+|`lstrip_color`|Euroband color.|(`int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup>, `int` <sup>0 &rarr; 255</sup>)|
+|`letter_cc`|Country abbreviation.|`str` <sup>len 0 &rarr; 3</sup>|
+|`letter_font`|Country abbreviation font.|`PIL.ImageFont.FreeTypeFont`|
+|`emblem`|Enable emblem.|`bool`|
+|`emblem_path`|Emblem path.|`str`|
+|`emblem_margin`|Emblem left and top offset.|`int`|
+|`text_font`|Plate text font.|`PIL.ImageFont.FreeTypeFont`|
+>***Note:** the`text` variable is assigned to the system argue by default, if you change this setting your plate text will be constant.*
