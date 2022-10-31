@@ -10,14 +10,6 @@ A simple python script to generate European-styled car license plates.
  3. Run the script using:
 `python3 main.py <plate_text>`
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
 ## Configuration
 
 |Setting|Description|Type/Range|
