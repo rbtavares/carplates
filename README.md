@@ -6,7 +6,7 @@ A simple python script to generate European-styled car license plates.
 
  1. Install the required modules using:
  `python3 -m pip install -f requirements.txt`
- 2. Adjust the configuration at the beginning of the file `main.py`
+ 2. Adjust the <span style="color:#ff0000">conf</span>iguration at the beginning of the file `main.py`
  3. Run the script using:
 `python3 main.py <plate_text>`
 
